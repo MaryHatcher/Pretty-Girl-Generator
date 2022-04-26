@@ -1,0 +1,182 @@
+#titlebox{    
+    display: flex;
+    justify-content: left;
+    pointer-events:none;
+}
+#title {
+    width:27vw;
+    pointer-events:none;
+}
+#definition{
+    display:none;
+    width:27vw;
+    margin-right:0;
+    margin-top:15px;
+    z-index:30;
+}
+
+#enough {
+    display:none;
+}
+
+#what {
+    margin-top:15px;
+    display:none;
+}
+
+button {
+    cursor:pointer;
+}
+
+#definebutton {
+    margin-top:15px;
+    display:none;
+}
+
+#whatbutton {
+    cursor: pointer;
+    margin-top:15px;
+}
+
+#description{    
+    width:27vw;
+    margin-right:0;
+}
+
+#bodydiv {
+    position:absolute;
+    margin:0;
+    left:30%;
+    bottom:0;
+    z-index:1;
+    pointer-events:none;
+}
+#hairdiv {
+
+    position:absolute;
+    left:30%;
+    margin:0;
+    bottom:0;
+    z-index:6;
+    pointer-events:none;
+}
+#eyesdiv {
+
+    position:absolute;
+    margin:0;
+    left:30%;
+    bottom:0;
+    z-index:5;
+    pointer-events:none;
+}
+#browsdiv {
+
+    position:absolute;
+    margin:0;
+    left:30%;
+    bottom:0;
+    z-index:4;
+    pointer-events:none;
+}
+#mouthdiv {
+
+    position:absolute;
+    margin:0;
+    left:30%;
+    bottom:0;
+    z-index:2;
+    pointer-events:none;
+}
+#nosediv {
+
+    position:absolute;
+    margin:0;
+    left:30%;
+    bottom:0;
+    z-index:3;
+    pointer-events:none;
+}
+img {
+    position:relative;
+    width:45vw;
+    max-width: 540px;
+    pointer-events:none;
+}
+
+input {
+    cursor: pointer;
+    height: 7vw;
+    width:11vw;
+    z-index:10;
+}
+#buttons{
+    position:fixed;
+    top:1vw;
+    right:1vw;
+    text-align:center;
+}
+@media only screen and (max-width: 850px) {
+    #bodydiv,#hairdiv,#eyesdiv,#mouthdiv,#browsdiv,#nosediv {
+    left:10vw;
+
+    }
+    img {
+        width:450px;
+        z-index:0;
+    }
+    input {
+        height: 8vw;
+        width:14vw;
+        margin: 2px;
+        
+
+    }
+    #buttons{
+        top:auto;
+        position: static;
+        right:0vw;
+        text-align:left;
+        margin-top:15px;
+    }
+    #definition{    
+        width:100vw;
+        margin-right:0;
+    }
+    #description{    
+        width:50vw;
+        margin-right:0;
+    }
+}
+
+
+  @media only screen and (max-width: 500px) {
+    input {
+        height: 50px;
+        width:100px;
+        z-index:20;
+
+    }
+    #bodydiv,#hairdiv,#eyesdiv,#mouthdiv,#browsdiv,#nosediv {
+        bottom:0;
+    
+        }
+    img{
+        width:100vw;
+        z-index:0;
+    }
+    #definition{    
+        width:100vw;
+        margin-right:0;
+    }
+    #description{    
+        width:100vw;
+        margin-right:0;
+    }
+  }
+  @media only screen and (max-width: 430x) {
+    input {
+        height: 18vw;
+        width:26vw;
+
+    }
+  }

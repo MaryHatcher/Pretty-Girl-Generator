@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pretty Girl Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <script src="global.js"></script>
+    <div id="titlebox">
+    <img id="title" src="Assets/Pretty Girl Generator.png">
+    </div>
+    <div id="description">
+        <button id="whatbutton" onclick="showWhat()">What is this?</button>
+        <div id="what">
+            <button onclick="showDefineButton()">Okay, cool.</button>
+            <p><i>Pretty Girl Generator</i> is based off of a Google Images search placed on 3/31/2022 of the word "pretty." The images used to build this generator are sourced from the first 100 results featuring a singular person.</p>
+        </div>
+        <div id="definebutton"><button  onclick="showDefinition()">Define "Pretty"</button>
+        <button id="enough" onclick="enough()">Okay, that's enough.</button></div>
+        <div id="definition"></div>
+        </div>
+    <div id="buttons">
+    <input class="button" type="button" value="BODY" id="nextbodies" >
+    <input class="button" type="button" value="HAIR" id="nexthairs" >
+    <input class="button" type="button" value="MOUTH" id="nextmouths" >
+    <input class="button" type="button" value="EYES" id="nexteyes" >
+    <input class="button" type="button" value="NOSE" id="nextnoses" >
+    <input class="button" type="button" value="BROWS" id="nextbrows" >
+    </div>
+    <div id="bodydiv"></div>
+    <div id="hairdiv"></div>
+    <div id="eyesdiv"></div>
+    <div id="mouthdiv"></div>
+    <div id="browsdiv"></div>
+    <div id="nosediv"></div>
+
+</body>
+</html>
